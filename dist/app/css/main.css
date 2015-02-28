@@ -58,12 +58,22 @@
   width: 50%;
   top: 50%;
   margin-top: 15%;
+  /*display: none;*/
 }
 .comments {
   font-family: 'Open Sans', sans-serif;
   padding: 5px;
 }
 .article {
+  position: relative;
+  float: right;
+  display: inline-block;
+  width: 50%;
+  top: 50%;
+  margin-top: 15%;
+  display: none;
+}
+.pdf {
   position: relative;
   float: right;
   display: inline-block;
