@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 requireDir('./gulp')
 requireDir('./gulp/generators')
 requireDir('./gulp/tasks')
-requireDir('./gulp/workflows')
+//requireDir('./gulp/workflows')
 
 /*
  *
