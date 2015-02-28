@@ -13,7 +13,6 @@
 <div id="tree-container"></div>
 <div id="docViewer">
     <div class="container">
-        <span class="title">Article title</span>
         <div class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/LyA4K86788Q" frameborder="0"
                     allowfullscreen></iframe>
@@ -28,9 +27,9 @@
 
         <!--article-->
         <div class="article">
-            <a href="http://www.theguardian.com/artanddesign/2013/dec/13/death-of-photography-camera-phones">Guardian
-                Article</a>
-
+            <!--<a href="http://www.theguardian.com/artanddesign/2013/dec/13/death-of-photography-camera-phones">Guardian-->
+                <!--Article</a>-->
+            <iframe src="http://www.theguardian.com/artanddesign/2013/dec/13/death-of-photography-camera-phones" frameborder="0" width="500" height="1000"></iframe>
             <div class="comments">
                 Comments:<br>
 
@@ -42,9 +41,10 @@
 
         <!--pdf-->
         <div class="pdf">
-            <a href="http://www.antiworld.se/project/references/texts/The_Society%20_Of%20_The%20_Spectacle.pdf">The society
-                of spectacle</a>
-
+            <!--<a href="http://www.antiworld.se/project/references/texts/The_Society%20_Of%20_The%20_Spectacle.pdf">The society-->
+                <!--of spectacle</a>-->
+            <img src="images/deboard.png" alt=""/>
+            <!--<iframe src="http://docs.google.com/gview?url=http://example.com/mypdf.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>-->
             <div class="comments">
                 Comments:<br>
 
@@ -1434,17 +1434,17 @@
 
         var content;
 
-        $(".video").show();
+        //$(".video").show();
 
 
-        return;
 
-        var m = Math.random()*3;
-        if(m>1){
+
+        var m = Math.random()*4;
+        if(m < 2){
             $(".pdf").show();
             $(".video").hide();
             $(".article").hide();
-        }else if(m>2){
+        }else if(m >2 && m < 3){
             $(".pdf").hide();
             $(".video").show();
             $(".article").hide();
