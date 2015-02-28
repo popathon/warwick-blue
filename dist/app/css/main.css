@@ -45,7 +45,12 @@
 
 /* V's changes
 ========================*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+#tree-container {
+  width: 50%;
+  display: inline-block;
+}
 .video {
   position: relative;
   float: right;
@@ -54,9 +59,17 @@
   top: 50%;
   margin-top: 15%;
 }
-
-#tree-container {
-  width: 50%;
+.comments {
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+}
+.article {
+  position: relative;
+  float: right;
   display: inline-block;
+  width: 50%;
+  top: 50%;
+  margin-top: 15%;
+  display: none;
 }
 
