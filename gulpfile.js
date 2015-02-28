@@ -19,7 +19,8 @@ requireDir('./gulp/tasks')
  * workflows
  * */
 
-gulp.task('build', ['html', 'scripts', 'less', 'images', 'data']);
+gulp.task('build', ['html', 'scripts', 'images', 'data']);
+// gulp.task('build', ['html', 'scripts', 'less', 'images', 'data']);
 gulp.task('build-angular', ['html', 'scripts','ng-copy-templates' ,'less', 'images', 'data']);
 
 /*
