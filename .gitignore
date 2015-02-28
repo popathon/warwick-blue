@@ -18,6 +18,6 @@ target/
 #npm grunt bower yeoman
 bower_components/
 node_modules/
-dist/
+//dist/
 
 
